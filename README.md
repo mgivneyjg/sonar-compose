@@ -21,3 +21,9 @@ chmod +x ./lightsail-compose.sh
 * Check `Enable Automatic Snapshots`.
 * Choose the instance size. This requires a Sonarqube server and a Postgres, so probably the $10-20/mo version.
 * Add your tags.
+
+## How to start this locally
+
+You can use a .env file to export the environment variables to a local file you don't check into source control.
+
+```docker-compose --env-file .env.dev up -d```
