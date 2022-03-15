@@ -2,7 +2,7 @@
 
 set -e
 
-yum install -y curl
+apt-get install -y curl
 
 # install latest version of docker the lazy way
 curl -sSL https://get.docker.com | sh
